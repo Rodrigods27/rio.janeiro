@@ -1,8 +1,65 @@
+#header {
+  text-align: center; /* centraliza o texto */
+  margin: 30px auto; /* espaço acima e abaixo */
+}
+
+#header h1 {
+  font-size: 2.5rem; /* tamanho grande para destaque */
+  margin-bottom: 10px; /* espaço abaixo do título */
+  color: #222; /* cor do título */
+}
+
+#header p {
+  font-size: 1.2rem; /* tamanho menor para subtítulo */
+  color: #555; /* cor mais clara */
+  max-width: 700px; /* limita largura do texto */
+  margin: 0 auto; /* centraliza o subtítulo */
+  line-height: 1.5; /* melhora a leitura */
+}
+
+#hero {
+  text-align: center; /* centraliza o conteúdo dentro da seção */
+}
+
 #hero img {
-  width: 100%; /* ocupa toda a largura do contêiner */
-  height: 300px; /* define a altura desejada */
-  object-fit: cover; /* mantém a proporção, cortando se necessário */
+  width: 98%; /* um pouco maior que os cards */
+  max-width: 1000px; /* limite máximo para não estourar a tela */
+  height: 350px; /* altura menor para não ocupar muito espaço */
+  object-fit: cover; /* mantém proporção e corta excesso se necessário */
   display: block;
   margin: 0 auto; /* centraliza horizontalmente */
-  border-radius: 18px; /* cantos arredondados */
+  border-radius: 20px; /* cantos arredondados */
+}
+
+#locais h2 {
+  text-align: center; /* centraliza o título */
+  font-size: 2rem; /* tamanho do texto */
+  color: #222; /* cor do título */
+  margin: 40px 0 20px 0; /* espaço acima e abaixo */
+  font-weight: bold; /* deixa em negrito */
+}
+
+.cards {
+  display: flex; /* organiza os cards em linha */
+  flex-wrap: wrap; /* permite quebrar linha se não couber */
+  justify-content: center; /* centraliza os cards horizontalmente */
+  gap: 20px; /* espaço entre os cards */
+  padding: 20px;
+}
+
+.card {
+  width: 300px; /* largura fixa de cada card */
+  background-color: #fff;
+  border-radius: 15px; /* cantos arredondados */
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* altura fixa para todas as imagens iguais */
+  object-fit: cover; /* mantém proporção e corta excesso */
+  border-radius: 10px;
 }
