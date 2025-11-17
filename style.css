@@ -1,0 +1,8 @@
+#hero img {
+  width: 100%; /* ocupa toda a largura do contêiner */
+  height: 300px; /* define a altura desejada */
+  object-fit: cover; /* mantém a proporção, cortando se necessário */
+  display: block;
+  margin: 0 auto; /* centraliza horizontalmente */
+  border-radius: 18px; /* cantos arredondados */
+}
